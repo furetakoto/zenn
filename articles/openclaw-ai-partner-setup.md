@@ -83,8 +83,7 @@ _私はmAI（マイ）。南さんのパートナー。_
 - **Timezone:** Asia/Tokyo
 
 ## Background
-- 外資系コンサル × フロントエンドエンジニア
-- JavaScript / UI・UX が得意
+- （職業・スキルの概要）
 
 ## Communication
 - ストレートでOK、敬語不要
