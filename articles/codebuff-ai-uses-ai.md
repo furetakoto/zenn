@@ -38,8 +38,23 @@ codebuff "認証機能を追加して"
 - 2025年9月にOSS化（[GitHub: CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)）
 - GitHub Stars: 3.4k（2026年3月時点）
 - TypeScript SDK提供（CI/CDやカスタム統合が可能）
-- モデル非依存（OpenRouter経由で任意のモデルに接続可能）
-- 料金: 月500クレジット無料、それ以降は従量制
+
+### APIキーは不要——独自クレジット制
+
+Codebuffは**独自のクレジット制**を採用している。AnthropicやOpenAIのAPIキーは不要で、Codebuffアカウントに紐づくクレジットを使う形になる。
+
+| モード | 使用モデル | 特徴 |
+|---|---|---|
+| **Default** | Claude Opus 4.6 | 標準。ファイル収集・コードレビューあり |
+| **Max** | Claude Opus 4.6 | 並列戦略・高精度。複雑なリファクタリング向け |
+| **Plan** | Claude Opus 4.6 | 計画のみ（ファイル変更なし） |
+| **Free** | MiniMax M2.5 | 無料。簡単な修正向け、レビューなし |
+
+:::message alert
+**注意**: デフォルトモードは **Claude Opus 4.6** を使用する。Opus はコスト高なので、**Freeモードで試してから本番投入**を推奨。
+:::
+
+起動時に `--free` フラグでFreeモード、`--max` でMaxモードを指定できる。セッション中は `Shift+Tab` または `/mode:free` などで切り替え可能。
 
 ---
 
