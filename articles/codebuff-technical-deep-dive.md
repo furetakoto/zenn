@@ -269,3 +269,9 @@ Codebuffは「CLIで動くコーディングエージェント」という説明
 - *[Codebuff公式サイト](https://www.codebuff.com/)*
 - *[GitHub: CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)*
 - *[BuffBench評価結果](https://news.codebuff.com/p/codebuff-goes-open-source-beats-claude)*
+
+---
+
+「AIが別のAIにコードを頼む体験」という視点からの記事はこちら：
+
+https://zenn.dev/furetakoto/articles/codebuff-ai-uses-ai
